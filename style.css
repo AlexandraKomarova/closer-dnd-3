@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1em;
+  margin-top: 2%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.search {
+  padding: 3%;
+}
+
+.search-icon {
+  margin-left: 30%;
+}
+
+.chat {
+  margin-left: 70%;
+  margin-top: 2%;
+  color: rgb(238,174,202);
+}
+
+.auth {
+  margin-left: 29%;
+  margin-top: 2%;
+  color: rgb(238,174,202);
+}
+
+.search-icon {
+  width: 7%;
+}
+
+.grid {
+  position: relative;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  /* line-height: 200px; */
+  margin: 5px;
+  text-align: center;
+  z-index: 1;
+}
+
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: #fff;
+  /* background: #59687d; */
+  /* font-size: 40px; */
+  text-align: center;
+}
+
+.item-content img {
+  width: 100%;
+}
+
+.item.muuri-item-dragging .item-content {
+  /* background: #8993a2; */
+}
+
+.item.muuri-item-releasing .item-content {
+  /* background: #152c43; */
+}
+
+.story {
+  /* display: flex; */
+  /* margin: auto; */
+  margin-left: 10%;
+}
+
+
+
+.connections {
+  display: flex;
+  margin-left: 9%;
+}
+
+.circle {
+  /* border: 2px solid rgb(238,174,202); */
+  border-radius: 50%;
+  margin: 1.7%;
+  width: 85px;
+  height: 85px;
+  margin: auto;
+}
+
+.next {
+  width: 3%;
+  margin-left: 3.5%;
+}
+
+.me {
+  background-image: url("me.jpg");
+  background-size: cover;
+}
+
+.border {
+  border: 2px solid rgb(238,174,202);
+  border-radius: 50%;
+  margin: 1.7%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+}
+
+.item-1 {
+  background-image: url("mount.jpg");
+  background-size: cover;
+}
+
+.item-2 {
+  background-image: url("mattise.JPG");
+  background-size: cover;
+}
+
+.item-3 {
+    background-image: url("mount2.JPG");
+    background-size: cover;
+}
+
+.item-4 {
+  background-image: url("lola.JPG");
+  background-size: cover;
+}
+
+.item-5 {
+  background-image: url("team.jpeg");
+  background-size: cover;
+}
+
+.item-6 {
+    background-image: url("fire2.jpg");
+    background-size: cover;
+}
+
+.item-7 {
+  background-image: url("beach2.JPG");
+  background-size: cover;
+}
+
+.item-8 {
+  background-image: url("lake2.jpg");
+  background-size: cover;
+}
+
+.item-9 {
+    background-image: url("sunset.jpeg");
+    background-size: cover;
+}
+
+.item-10 {
+  background-image: url("dress.jpg");
+  background-size: cover;
+}
+
+.item-11 {
+  background-image: url("game2.jpg");
+  background-size: cover;
+}
+
+.item-12 {
+    background-image: url("me3.jpeg");
+    background-size: cover;
+}
+
+.ani {
+  background-image: url("ani.png");
+  background-size: cover;
+}
+
+.fran {
+  background-image: url("fran.png");
+  background-size: cover;
+}
+
+.masha {
+  background-image: url("masha.png");
+  background-size: cover;
+}
+
+.alyona {
+  background-image: url("alyona.png");
+  background-size: cover;
+}
+
+.michel {
+  background-image: url("michel.jpg");
+  background-size: cover;
+}
+
+.intro {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+.info {
+  margin-top: 340px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.terms {
+  text-decoration: underline;
+  color: rgb(238,174,202);
+}
+
+
+
+
+
